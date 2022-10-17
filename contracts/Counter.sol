@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 contract Counter {
     string public name;
-    uint public count = 1; // Init withd default value
+    uint public count; 
 
     constructor(string memory _name, uint _initialCount){
         name = _name;
